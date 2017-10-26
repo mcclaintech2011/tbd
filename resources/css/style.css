@@ -1,7 +1,69 @@
 html,
 body {
-  font-family: ;
+  font-family: 'Quicksand', sans-serif;
   font-size: 15px;
   font color: black;
   background-color: lightgray;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Header & Nav */
+header {
+  position: fixed;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  margint: 20px 0px;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 90px;
+  width: auto;
+  padding: 0px 10px;
+}
+
+.logo h1 {
+  display: flex;
+  align-items: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.gray {
+  color: #929292;
+  font-weight: 300;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3em;
+  padding-top: .1em;
+  padding-left: 1%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0% 3%;
+}
+
+.nav {
+  margin: 5% 5%;
+}
+
+.body {
+  padding-top: 110px;
 }
