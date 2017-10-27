@@ -3,7 +3,14 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 15px;
   font color: black;
-  background-color: lightgray;
+  background-color: #F9F9F9;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  margin: 2% 0%;
 }
 
 h2 {
@@ -17,13 +24,12 @@ a{
 /* Header & Nav */
 header {
   position: fixed;
-  background-color: transparent;
+  background-color: #E5BC86;
   display: flex;
   justify-content: space-between;
   margint: 20px 0px;
   height: 100px;
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
@@ -64,6 +70,13 @@ nav {
   margin: 5% 5%;
 }
 
+/* Main Content */
+
 .body {
   padding-top: 110px;
+}
+
+.title {
+  text-align: center;
+  color: black;
 }
