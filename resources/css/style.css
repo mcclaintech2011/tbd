@@ -2,6 +2,8 @@
 
 body {
   font-family: "Merriweather", sans-serif;
+  background-color: #F9F9F9;
+  color: #6B7A62;
 }
 
 h2 {
@@ -12,7 +14,26 @@ h3 {
   text-align: center;
 }
 
+a {
+  color: #9DD0F2;
+}
+
+a:hover{
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+li {
+  padding-top: 5%;
+}
+
 /* Bootstrap Overrides */
+
+.navbar-brand {
+  height: 75px;
+  width: auto;
+}
+
 
 .jumbotron {
   background-image: url("../images/desktopimg.jpeg");
@@ -25,6 +46,15 @@ h3 {
 
 .navbar {
   margin-bottom: 0;
+  background-color: #6B7A62;
+}
+
+.navbar a {
+  color: #F9F9F9 !important;
+}
+
+.navbar a:hover{
+  color: #9DD0F2 !important;
 }
 
 #showcase {
@@ -53,10 +83,16 @@ h3 {
 }
 
 #social {
-  width: 30%;
-  padding-bottom: 5%;
+  width: 20%;
 }
 
 footer {
-  background-color: lightgray;
+  background-color: #6B7A62;
+  padding-bottom: 2%;
+}
+
+footer p{
+  font-size: 18px !important;
+  text-align: center;
+  color: #F9F9F9;
 }
