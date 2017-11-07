@@ -1,82 +1,62 @@
-html,
-body {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
-  font color: black;
-  background-color: #F9F9F9;
-}
+/* Universal Styles */
 
-h1 {
-  font-size: 2em;
-  font-family: 'Merriweather', serif;
-  font-weight: 900;
-  margin: 2% 0%;
+body {
+  font-family: "Merriweather", sans-serif;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 40px;
 }
 
-a{
-  text-decoration: none;
-}
-
-/* Header & Nav */
-header {
-  position: fixed;
-  background-color: #E5BC86;
-  display: flex;
-  justify-content: space-between;
-  margint: 20px 0px;
-  height: 100px;
-  width: 100%;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  height: 90px;
-  width: auto;
-  padding: 0px 10px;
-}
-
-.logo h1 {
-  display: flex;
-  align-items: center;
-  font-size: 2.5em;
-  font-weight: 700;
-  font-family: 'Merriweather', sans-serif;
-}
-
-.gray {
-  color: #929292;
-  font-weight: 300;
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.3em;
-  padding-top: .1em;
-  padding-left: 1%;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  padding: 0% 3%;
-}
-
-.nav {
-  margin: 5% 5%;
-}
-
-/* Main Content */
-
-.body {
-  padding-top: 110px;
-}
-
-.title {
+h3 {
   text-align: center;
-  color: black;
+}
+
+/* Bootstrap Overrides */
+
+.jumbotron {
+  background-image: url("../images/desktopimg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+#showcase {
+  margin-top: 50px;
+}
+
+/* About Section - Grid System */
+
+.left-col {
+  font-size: 32px;
+}
+
+.right-col {
+  font-size: 14px;
+}
+
+/* Contact - Grid System */
+
+#portfolio {
+  padding-bottom: 3%;
+}
+
+#contact p {
+  font-size: 24px;
+  padding-top: 3%;
+}
+
+#social {
+  width: 30%;
+  padding-bottom: 5%;
+}
+
+footer {
+  background-color: lightgray;
 }
