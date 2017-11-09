@@ -182,6 +182,9 @@ textarea:focus {
   text-align: center;
 }
 
+#summary-btn {
+  margin-bottom: 3%;
+}
 
 footer {
   background-color: #6B7A62;
@@ -196,6 +199,14 @@ footer p{
 }
 
 @media only screen and (max-width: 700px) {
+  .jumbotron {
+    background-image: url("../images/desktopimgMOBILE.jpg");
+  }
+
+  #contact-page {
+    background-image: url("../images/contactimgMOBILE.jpg");
+  }
+
   #contact-body .left-col {
     display: none;
     }
