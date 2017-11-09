@@ -6,8 +6,14 @@ body {
   color: #6B7A62;
 }
 
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 3em;
+}
+
 h2 {
-  font-size: 40px;
+  font-size: 2.5em;
 }
 
 h3 {
@@ -34,6 +40,9 @@ li {
   width: auto;
 }
 
+.light {
+  font-weight: 300;
+}
 
 .jumbotron {
   background-image: url("../images/desktopimg.jpeg");
@@ -41,7 +50,7 @@ li {
   background-repeat: no-repeat;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
-  color: white;
+  color: #F9F9F9;
   margin-top: 75px;
   text-align: center;
 }
@@ -76,24 +85,16 @@ li {
 
 .left-col {
   font-size: 32px;
+  padding: 2%;
 }
 
 #contact-body .left-col {
     padding-right: 7%;
 }
 
-@media only screen and (max-width: 700px) {
-  #contact-body .left-col {
-    display: none;
-    }
-
-  .left-col {
-    font-size: 20px;
-    }
-  }
-
 .right-col {
   font-size: 14px;
+  padding: 5%;
 }
 
 .btn-lg {
@@ -153,6 +154,35 @@ textarea:focus {
   width: 20%;
 }
 
+#overview .right-col:hover {
+  background-color: #6B7A62;
+  color: #F9F9F9;
+  transition: background-color 1s;
+  transition: color 1s;
+}
+
+#overview .left-col {
+  font-size: 14px;
+}
+
+
+#about {
+  width: 75%;
+  padding-bottom: 5%;
+}
+
+#about h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#about h4 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+
 footer {
   background-color: #6B7A62;
   padding-bottom: 2%;
@@ -164,3 +194,18 @@ footer p{
   text-align: center;
   color: #F9F9F9;
 }
+
+@media only screen and (max-width: 700px) {
+  #contact-body .left-col {
+    display: none;
+    }
+
+  .left-col {
+    font-size: 20px;
+    }
+
+    #overview .right-col {
+      background-color: #6B7A62;
+      color: #F9F9F9;
+    }
+  }
