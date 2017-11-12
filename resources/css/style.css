@@ -96,18 +96,20 @@ li {
 
 /* Section Specific */
 
-#contact-body {
+#contact-body,
+#portfolio-body,
+#about-body {
   width: 80%;
   padding-top: 90px;
   padding-bottom: 3%;
 }
 
-#showcase {
-  margin-top: 50px;
-}
-
 #contact-body .left-col {
     padding-right: 7%;
+}
+
+#showcase {
+  margin-top: 50px;
 }
 
 #portfolio {
